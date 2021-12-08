@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+}
+
+.searchWord, .numberOfpictures, .size{
+    width: 7rem;
+    margin: 1rem;
+}
+
+button{
+    width: 4rem;
+    margin-bottom: .5rem;
+}
+
+.photoGallery{
+    display: flex;
+    justify-content: center;
+}
