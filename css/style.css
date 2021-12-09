@@ -1,36 +1,52 @@
 body{
+    background-color: cornflowerblue;
+    height: 100vh; 
+    width: 100vw;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+}
+
+a{
+    padding: 1rem;
+}
+
+img{
+    
     margin: auto;
 }
-
-header{
-    display: flex;
-    justify-content: center;
-}
-
-.test{
-    display: flex;
-    justify-content: center;
-}
-
-form{
-    border: solid 2px black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 50rem;
-}
-
-.searchWord, .numberOfpictures, .size{
-    width: 7rem;
-    margin: 1rem;
+input{
+    height: 1.5rem;
+    width: 5rem;
+    margin: 2px;
 }
 
 button{
-    width: 4rem;
-    margin-bottom: .5rem;
+    margin: 4px;
 }
 
-.photoGallery{
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#animationWrapper{
+    width: 100vw;
     display: flex;
     justify-content: center;
+    padding: 2rem;
 }
+
+#animationDiv{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-item{
+    text-align: center;
+    width: 100%;
+}
+
